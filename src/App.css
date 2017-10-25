@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+th, td {
+  user-select: none;
+  cursor: pointer;
+  height: 18px;
+  width: 10px;
+  min-height: 18px;
+  min-width: 10px;
+  max-height: 18px;
+  max-width: 10px;
+  padding: 15px;
+  border: 4px solid #c2c2c2;
+  border-collapse: collapse;
+}
+
+.contour {
+  margin: auto;
+  border: 4px solid #c2c2c2;
+  border-collapse: collapse;
+}
+
+.placement {
+  position: relative;
+  margin: auto;
+}
+
+.containt {
+  position: absolute;
+  margin: auto;
+
+}
+.Cercle {
+  border: 2px solid #28324e;
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+._3 {
+  width: 90px;
+  height: 90px;
+  margin-top: -63px;
+  margin-left: 20px;;
+  animation: planet-rotate-1 infinite 300s linear;
+}
+
+._2 {
+  width: 70px;
+  height: 70px;
+  margin-top: -84px;
+  margin-left: 30px;
+  animation: planet-rotate-1 infinite 150s linear;
+  
+}
+
+._1 {
+  width: 50px;
+  height: 50px;
+  margin-top: -64px;
+  margin-left: 40px;
+  animation: planet-rotate-1 infinite 75s linear;
+}
+
+
+
+
+._4 {
+  width: 10px;
+  height: 10px;
+  margin-top: -34px;
+  margin-left: 60px;
+  background-color: #fac51c;
+}
+
+._5 {
+  width: 5px;
+  height: 5px;
+  background-color: #ECF0F1;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+._6 {
+  width: 5px;
+  height: 5px;
+  background-color: #2890B9;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-left: 7px;
+  
+}
+
+._7 {
+  width: 5px;
+  height: 5px;
+  background-color: #E74C3C;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+@keyframes planet-rotate-1 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.heure {
+  float: left;
+  transition: height 0.3s ease-in-out;
+}
